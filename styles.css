@@ -8,7 +8,7 @@
 	scroll-behavior: smooth;
 }
 
-.body {
+body {
 	margin: 8px;
 	display: block;
 }
@@ -380,7 +380,7 @@
 
 .footer_requirement {
 	background: rgb(77, 149, 167);
-    text-align: center;
-    color:aliceblue;
-    font-weight: 100;
+	text-align: center;
+	color: aliceblue;
+	font-weight: 100;
 }
