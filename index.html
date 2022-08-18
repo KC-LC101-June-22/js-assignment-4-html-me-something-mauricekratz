@@ -1,8 +1,204 @@
 <!DOCTYPE html>
 <html>
-   <head>
-   </head>
-   <body>
-      <!-- Write your HTML in this file! -->
-   </body>
+	<head>
+		<title>Maurice Kratz 2022</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<!-- LC 101 Assignment 4 -- HTML ME SOMETHING 2022 -->
+
+		<!-- Header Section -->
+		<div>
+			<header class="header__requirement">
+				Assignment 4 -- HTML ME SOMETHING 2022
+			</header>
+		</div>
+
+		<!-- Navbar Section  -->
+		<nav class="navbar">
+			<div class="navbar__container">
+				<a href="#home" id="navbar__logo">Maurice Kratz</a>
+				<div class="navbar__toggle" id="mobile-menu">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<ul class="navbar__menu">
+					<li class="navbar__item">
+						<a href="#home" class="navbar__links" id="home-page">Home</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#about" class="navbar__links" id="about-page">About</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#launchcode" class="navbar__links" id="launchcode-page"
+							>LaunchCode</a
+						>
+					</li>
+					<li class="navbar__item">
+						<a href="#fun-facts" class="navbar__links" id="fun-facts-page"
+							>Fun Facts</a
+						>
+					</li>
+					<li class="navbar__item">
+						<a href="#pets" class="navbar__links" id="pets-page">Pets</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Main Section -->
+
+		<main>
+			<!--Landing Section -->
+			<div class="landing" id="home">
+				<div class="landing__container">
+					<h1 class="landing__heading">Maurice Kratz <span>Journey </span></h1>
+					<p class="landing__description">2022</p>
+				</div>
+			</div>
+
+			<!-- About Section -->
+			<div class="main" id="about">
+				<div class="main__container">
+					<div class="main__img__--container">
+						<figure class="main__img--card">
+							<img
+								src="/images/images/maurice.JPG"
+								width="80%"
+								height="80%"
+								alt="Maurice Kratz"
+							/>
+							<figcaption>Maurice Kratz circa 2020</figcaption>
+						</figure>
+					</div>
+					<div class="main__content">
+						<h1>Journey Into Tech</h1>
+						<h2>Why Tech?</h2>
+						<article>
+							Since I was younger, I have always had an affinity for science and
+							technology. To me, technology has been able to accomplish things
+							that would otherwise, be considered magic. The ability to control
+							my home simply by speaking out loud is something I wish I could go
+							back and tell my younger self about. I am often one of the first
+							adopters of new products and features because my curiosity about
+							the subject is never-ending. I often dream about what the world of
+							tech will be in 50 or 60 years.
+						</article>
+						<button class="main__btn">
+							<a
+								href="https://www.linkedin.com/in/mauricekratz/"
+								target="_blank"
+								>Connect with Me</a
+							>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<!-- LaunchCode Section -->
+
+			<div class="main" id="launchcode">
+				<div class="main__container">
+					<div class="main__img__--container">
+						<figure class="main__img--card">
+							<img
+								src="/images/images/launchcode__logo.jpeg"
+								width="80%"
+								height="80%"
+								alt="LaunchCode Logo"
+							/>
+							<figcaption>LaunchCode Logo &copy</figcaption>
+						</figure>
+					</div>
+					<div class="main__content">
+						<h1>LaunchCode</h1>
+						<h2>Why LaunchCode?</h2>
+						<p>
+							I heard about LaunchCode and subsequently LC101 when I discovered
+							Harvard's CS50 class when it popped up on my YouTube suggestions
+							and have been curious about coding ever since. I have spent most
+							of my working life in health care and the service industry and I
+							was looking for a change that I can hopefully spend the rest of my
+							life doing it.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Fun Facts Section -->
+
+			<div class="main" id="fun-facts">
+				<div class="main__container">
+					<div class="main__img__--container">
+						<figure class="main__img--card">
+							<img
+								src="/images/images/universe.JPG"
+								width="80%"
+								height="80%"
+								alt="Maurice Kratz fun"
+							/>
+							<figcaption>Maurice Kratz circa 2021</figcaption>
+						</figure>
+					</div>
+					<div class="main__content">
+						<h1>Fun Facts</h1>
+						<ul>
+							<li>Hometown: Miami, Fl</li>
+							<li>Favorite Food: Burgers</li>
+							<li>Favorite Authors: Kafka and Poe</li>
+							<li>
+								Places I want to travel: Egypt, France, Greece, Mexico, Nigeria,
+								Peru
+							</li>
+							<li>Hobbies: Music, Nature trails, Photography, Video games</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pets Section -->
+
+			<div class="main" id="pets">
+				<div class="main__container">
+					<div class="main__img__--container">
+						<figure class="main__img--card">
+							<img
+								src="/images/images/dogs.jpg"
+								width="80%"
+								height="80%"
+								alt="Maurice's Dogs"
+							/>
+							<figcaption>Freya, Bronson, &amp Zoey</figcaption>
+						</figure>
+					</div>
+					<div class="main__content">
+						<h1>Pets</h1>
+						<h2>My Crew</h2>
+						<p>
+							No story about me would be complete without mentioning my little
+							furry family. Each one has their own personality and each one
+							knows how to keep me busy.
+						</p>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- Fun Paragraph Requirement -->
+
+		<div class="main">
+			<h3 id="mainHeading">Assignment 4 HTML Me Something</h3>
+			<p class="funParagraph" id="testP">
+				Maurice's Journey is the 4th assignment in LC101
+			</p>
+		</div>
+
+		<!-- Footer Section -->
+		<footer>
+			<p>&copy; Maurice Kratz 2022</p>
+		</footer>
+
+		<script src="app.js"></script>
+	</body>
 </html>
